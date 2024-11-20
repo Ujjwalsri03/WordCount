@@ -1,0 +1,70 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin: 1.5rem auto;
+  margin-bottom: 2rem;
+}
+
+.itemBtn {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 5px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid grey;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  font-size: medium;
+}
+
+.reset {
+  background-color:#3ccf7a;
+  color: rgb(12, 12, 12);
+  padding: 0.6rem 1.2rem;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 3px;
+  letter-spacing: 0.2mm;
+  transition: all 0.3s ease-in;
+}
+
+.reset:hover{
+    background-color: #ea7b7b;
+    transform: translateY(-2px);
+}
+
+.reset:active{
+    scale: 0.95;
+    transform: translateY(2px);
+}
+
+.heading{
+    text-align: center;
+    font-size: 36px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-decoration: underline;
+    letter-spacing: 0.2mm;
+}
+.center {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+.highlight {
+  background-color: lightblue;
+}
+
+.success {
+  background-color: lightgreen;
+}
+
+.failure {
+  background-color: lightcoral;
+}
+
+[data-status] button {
+  cursor: not-allowed;
+}
