@@ -38,7 +38,7 @@ const App = () => {
           },
         }}
       />
-      <h1 className={styles.heading}>Word-Count</h1>
+      <h1 className={styles.heading}>Word-Connect</h1>
       <h3 className={styles.center}>
         Connect group of {groupSize} words by clicking on related words
       </h3>
